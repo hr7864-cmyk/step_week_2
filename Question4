@@ -1,0 +1,24 @@
+public class AsciiDemo {
+    public static void main(String[] args) {
+
+        char letter = 'A';
+        System.out.println((int) letter);
+
+        char back = (char) 97;
+        System.out.println(back);
+
+        char upper = 'M';
+        char lower = (char) (upper + 32);
+        System.out.println(lower);
+
+        for (int i = 65; i <= 90; i++) {
+            System.out.print((char) i);
+        }
+
+        System.out.println();
+
+        System.out.println(Character.isDigit('7'));
+        System.out.println(Character.isLetter('Z'));
+        System.out.println(Character.toUpperCase('m'));
+    }
+}
